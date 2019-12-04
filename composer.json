@@ -1,0 +1,22 @@
+{
+  "name" : "varik-kos/yii2-ulid",
+  "homepage" : "https://github.com/varik-kos/yii2-ulid",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "varik-kos"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "phpbench/phpbench": "^0.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ulid\\": "src"
+    }
+  }
+}
